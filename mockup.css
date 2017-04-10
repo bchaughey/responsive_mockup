@@ -68,28 +68,41 @@ header{
 	min-width:70%;
 	
 }
+body{
+	margin-top: 30px;
+}
 aside{
 	float: left;
 	min-width: 30%;
 	max-width: 30%;
 	height: 500px;
 	margin-top: 30px;
-	
-	
-	
-}
+	text-align: center;
+	}
+
 .main-container{
 	margin-top: 30px;
 	max-width: 990px;
-	width: 84%;
+	width: 88%;
 	margin: 0 auto;
+	height: 600px;
+	border:1px solid red;
+	
 }
-.main-container .heading p{
+.main-container .heading{
 	height: 40px;
 	width: 100%;
 	border:1px solid;
-	text-align: middle;
+	text-align: center;
 	line-height: 40px;
-	margin: 0 auto;
+	display: block;
+}
+
+.main-container	.box{
+	
+	height: 200px;
+	width: 100%;
+	border:1px solid black;
+	
 	
 }
