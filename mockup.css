@@ -59,7 +59,7 @@ header{
 }
  main{
 	float: right;
-	
+	width: 75%;
 	height: 50px;
 	
 	margin-top: 30px;
@@ -86,7 +86,7 @@ aside{
 	
 	width: 94%;
 	margin: 0 auto;
-	height: 600px;
+	height: 100vh;
 	border:1px solid red;
 	
 }
@@ -101,7 +101,7 @@ aside{
 
 .main-container	.box{
 	
-	height: 180px;
+	height: 100%;
 	width: 100%;
 	border:1px solid black;
 	display: flex;
@@ -125,11 +125,14 @@ aside{
 .main-container .box section.col:last-child{
 	flex-basis:33%;
 	flex-grow:2;
+	
 
 }
 footer{
-	width: 100%;
-	clear: right;
+	width:75%;
+	clear: both;
+	margin-right: 0;
+	
 	
 }
 main-container.group:after{
